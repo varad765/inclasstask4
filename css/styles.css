@@ -1,0 +1,169 @@
+header h1 {
+    padding: 20px;
+    background-color: antiquewhite;
+    font-size: 2rem;
+    color: red;
+    margin: 0;
+}
+
+ h2{
+    color: rgb(172, 110, 62);
+   
+}
+body{
+    background-color: rgb(107, 166, 185);
+    border: 20px solid black 2px;
+    padding: 15px;
+    width: 95%;
+    margin-bottom: 10px;
+    height: auto;
+}
+.wave{
+    padding-bottom: 190px;
+}
+nav{
+    background-color: rgb(103, 88, 117);
+    padding: 10px; 
+}
+nav ul {
+    padding: 0;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+}
+nav a {
+    display: inline-block;
+    border: 2px solid rgb(143, 112, 166);
+     border-radius: 5px; 
+    padding: 5px 10px;
+    color: rgb(104, 72, 126);
+    background-color: cornsilk;
+    text-decoration: none;
+}
+nav a:hover {
+    color: cornsilk;
+    background-color: rgb(125, 97, 145);
+}
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+aside ul li a {
+    text-decoration: none;
+    color: blue;
+}
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+form {
+    border: 5px dashed rgb(111, 60, 60);
+    padding: 2px;
+    width: 900px;
+    margin-left: 20px;
+}
+main 
+{
+    height: auto;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+select,
+option {
+    width: 28%;
+    display: block;
+    height: 2em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    height: 2em;
+    width: 2em;
+}
+
+select,
+option,
+label,
+legend,
+input[type="submit"] {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+textarea {
+    width: 50%;
+    display: block;
+}
+fieldset {
+    border: none;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background-color: #352121;
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px 0;
+    clear: both;
+   
+}
+aside{
+        padding: 20px;
+        background-color: cornsilk;
+        float: right;
+        width: 320px; 
+        padding-bottom: 885px;
+    }
+    aside a {
+        color: blue;
+        display: inline-block;
+        border-radius: 400px;
+        padding: 5px 10px;
+    background-color: cornsilk;
+    }
+
+    aside a:hover {
+        text-decoration: underline;
+    }
+    div 
+    {
+        background-color: #f2f2f2;
+        padding: 20px;
+        width: 70%;
+      }
+
+        #uq{
+            color: rgb(159, 82, 232);
+        }
+        #or{
+                color: rgb(143, 83, 183);
+                border: solid black 4px;
+                padding: 50px;
+        }
+        #pr{
+                color: rgb(126, 229, 229);
+        }
+        #id{
+                color: rgb(129, 108, 204);
+                border: solid black 4px;
+                padding: 50px;
+        }
+        #head{
+            color: rgb(182, 55, 55);
+        }
+       
+        .Structural{
+                background-color: #f2f2f2;
+                width: 70%;
+                padding-bottom: 600px;
+           
+        }
+
+        footer p{
+                font-size: 70%;
+        }
+        a:hover{
+                color: #888
+        }

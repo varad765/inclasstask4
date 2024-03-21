@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/stylee.css">
+    <link rel="stylesheet" href="css/normalize (3).css">
+</head>
+<body>
+    <header>
+        <h1>In class tasks</h1>
+    </header>
+    <nav class="structural">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <aside>
+            <section>
+                <h2>Online Websites</h2>
+        <ul>
+            <li><a href="https://www.amazon.ca/">Amazon</a></li>
+        <li><a href="https://www.netflix.com/ca/">Netflix</a></li>
+
+            </ul>
+        </section>
+    </aside>
+    <div>
+        <h2>Contact</h2>
+        <form>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required autofocus>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <fieldset>
+                <legend>What section of PROG1245 are you in?</legend>
+                <label for="sec4">Section 4</label>
+                <input type="radio" id="4" name="sec" value="4" required>
+                <br>
+                <label for="sec5">Section 5</label>
+                <input type="radio" id="5" name="sec" value="5" required>
+                <br>
+                <label for="sec8">Section 8</label>
+                <input type="radio" id="8" name="sec" value="8" required>
+            </fieldset>
+            <div>
+                <label for="help">What do you need help with?</label>
+                <select id="help" name="help" required>
+                    <option selected disabled>Select option</option>
+                    <option value="HTML">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="Both">Both (HTML & CSS)</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" required></textarea>
+            </div>
+            <div>
+                <label for="human">I am a human:</label>
+                <input type="checkbox" id="human" name="human" value="true" required>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p>&copy;varadkrishna 2024</p>
+    </footer>
+</body>
+</html>
