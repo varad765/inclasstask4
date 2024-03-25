@@ -165,3 +165,45 @@ aside{
         a:hover{
                 color: #ffffff
         }
+        html{
+            font: 20px Arial, sans-serif;
+        }
+        section.Gift{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: stretch;
+        }
+        main{
+            flex: 2 1 70%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        figcaption{
+            text-align: center;
+
+        }
+        figure img{
+            width: 80%;
+            height: 80%;
+            object-fit: cover;
+        }
+        figure{
+            border: 1px solid black;
+
+        }
+        @media(max-width: 600px){
+                html{
+                    font-size: 10px;
+                }
+                section.plus{
+                    flex-direction: column;
+                }
+                body{
+                    display: block;
+                }
+                aside{
+                    order: 1;
+                }
+            }
